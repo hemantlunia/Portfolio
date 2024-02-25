@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.skill-chart {
+    width: 90px;
+    height: 100px;
+}
+
+.skill-circle-bg {
+    fill: none;
+    stroke: red;
+    stroke-width: 12;
+}
+
+.skill-circle {
+    fill: pink;
+    stroke: blue;
+    stroke-width: 8;
+    stroke-linecap: round;
+    /* stroke-dasharray: 0, 80; */
+    /* transition: stroke-dasharray 5s ease-in-out; */
+}
