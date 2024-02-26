@@ -11,12 +11,14 @@ export default function Home() {
                             <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
                                 <h2 className="text-[red] text-4xl font-bold sm:text-5xl">
                                     Hemant Kumar
-                                    <span className="hidden sm:block text-4xl">(Web Developer)</span>
+                                    <p className="sm:text text-4xl">(Web Developer)</p>
+                                    <p className="sm:text text-4xl">Beta Version</p>
                                 </h2>
 
                                 <Link
                                     className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-700 rounded-lg hover:opacity-75"
                                     to="https://www.linkedin.com/in/hemant-kumar-7794a11aa"
+                                    target="blank"
                                 >
                                     <svg
                                         fill="white"
